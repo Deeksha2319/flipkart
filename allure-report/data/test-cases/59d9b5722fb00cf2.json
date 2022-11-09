@@ -1,0 +1,208 @@
+{
+  "uid" : "59d9b5722fb00cf2",
+  "name" : "search data -- @1.2 ",
+  "fullName" : "search flipkart: search data",
+  "historyId" : "a550d5c268ffc7b3a2ca83bf07de1f00",
+  "time" : {
+    "start" : 1667975388918,
+    "stop" : 1667975492998,
+    "duration" : 104080
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class=\"_3704LK\" type=\"text\" title=\"Search for products, brands and more\" name=\"q\" autocomplete=\"off\" placeholder=\"Search for products, brands and more\" value=\"\"> is not clickable at point (439, 28). Other element would receive the click: <div class=\"_3oBhRa col col-2-5 _4H6HH5\">...</div>\n  (Session info: chrome=107.0.5304.88)\n\n",
+  "statusTrace" : "  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\searchfeature.py\", line 36, in step_impl\n    context.search.text_Searchbar(searchTEXT)\n  File \"C:\\Users\\Vijay\\PycharmProjects\\SPRINTFLIPKART\\BDDBehavePOM\\features\\pageobject\\search.py\", line 47, in text_Searchbar\n    self.TypeEditBox(\"SEARCHBAR_XPATH\", searchTEXT)\n  File \"C:\\Users\\Vijay\\PycharmProjects\\SPRINTFLIPKART\\BDDBehavePOM\\features\\pageobject\\Base.py\", line 32, in TypeEditBox\n    self.driver.find_element_by_xpath(configreader.ConfigReader(\"locators\", locator)).click()\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class=\"_3704LK\" type=\"text\" title=\"Search for products, brands and more\" name=\"q\" autocomplete=\"off\" placeholder=\"Search for products, brands and more\" value=\"\"> is not clickable at point (439, 28). Other element would receive the click: <div class=\"_3oBhRa col col-2-5 _4H6HH5\">...</div>\n  (Session info: chrome=107.0.5304.88)\n\n",
+    "statusTrace" : "  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\searchfeature.py\", line 36, in step_impl\n    context.search.text_Searchbar(searchTEXT)\n  File \"C:\\Users\\Vijay\\PycharmProjects\\SPRINTFLIPKART\\BDDBehavePOM\\features\\pageobject\\search.py\", line 47, in text_Searchbar\n    self.TypeEditBox(\"SEARCHBAR_XPATH\", searchTEXT)\n  File \"C:\\Users\\Vijay\\PycharmProjects\\SPRINTFLIPKART\\BDDBehavePOM\\features\\pageobject\\Base.py\", line 32, in TypeEditBox\n    self.driver.find_element_by_xpath(configreader.ConfigReader(\"locators\", locator)).click()\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given We are on flipkart website",
+      "time" : {
+        "start" : 1667975391783,
+        "stop" : 1667975435499,
+        "duration" : 43716
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When click login",
+      "time" : {
+        "start" : 1667975435499,
+        "stop" : 1667975435607,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Enter your \"9538167879\" in the feild",
+      "time" : {
+        "start" : 1667975435607,
+        "stop" : 1667975455831,
+        "duration" : 20224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And Enter your \"aswewd\" in the box",
+      "time" : {
+        "start" : 1667975455831,
+        "stop" : 1667975476097,
+        "duration" : 20266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And click login",
+      "time" : {
+        "start" : 1667975476097,
+        "stop" : 1667975476208,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then type \"tv\" in search bar",
+      "time" : {
+        "start" : 1667975476208,
+        "stop" : 1667975487718,
+        "duration" : 11510
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class=\"_3704LK\" type=\"text\" title=\"Search for products, brands and more\" name=\"q\" autocomplete=\"off\" placeholder=\"Search for products, brands and more\" value=\"\"> is not clickable at point (439, 28). Other element would receive the click: <div class=\"_3oBhRa col col-2-5 _4H6HH5\">...</div>\n  (Session info: chrome=107.0.5304.88)\n\n",
+      "statusTrace" : "  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\behave\\matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features\\steps\\searchfeature.py\", line 36, in step_impl\n    context.search.text_Searchbar(searchTEXT)\n  File \"C:\\Users\\Vijay\\PycharmProjects\\SPRINTFLIPKART\\BDDBehavePOM\\features\\pageobject\\search.py\", line 47, in text_Searchbar\n    self.TypeEditBox(\"SEARCHBAR_XPATH\", searchTEXT)\n  File \"C:\\Users\\Vijay\\PycharmProjects\\SPRINTFLIPKART\\BDDBehavePOM\\features\\pageobject\\Base.py\", line 32, in TypeEditBox\n    self.driver.find_element_by_xpath(configreader.ConfigReader(\"locators\", locator)).click()\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Users\\Vijay\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d98704a605933ef5",
+        "name" : "screenshot",
+        "source" : "d98704a605933ef5.png",
+        "type" : "image/png",
+        "size" : 344162
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "And Click on search button",
+      "time" : {
+        "start" : 1667975492997,
+        "stop" : 1667975492997,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Click on Product",
+      "time" : {
+        "start" : 1667975492998,
+        "stop" : 1667975492998,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Click on add to cart",
+      "time" : {
+        "start" : 1667975492998,
+        "stop" : 1667975492998,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "search flipkart"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "aswewd"
+  }, {
+    "name" : "searchTEXT",
+    "value" : "tv"
+  }, {
+    "name" : "username",
+    "value" : "9538167879"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "59d9b5722fb00cf2.json",
+  "parameterValues" : [ "aswewd", "tv", "9538167879" ]
+}

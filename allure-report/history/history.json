@@ -1,0 +1,85 @@
+{
+  "0e059b0e40b9017d23e4276ac748dc25" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8cc150f9494a03b",
+      "reportUrl" : "http://localhost:9090/job/SPRINTFLIPKART/3/allure/#testresult/f8cc150f9494a03b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class=\"_3704LK\" type=\"text\" title=\"Search for products, brands and more\" name=\"q\" autocomplete=\"off\" placeholder=\"Search for products, brands and more\" value=\"\"> is not clickable at point (439, 28). Other element would receive the click: <div class=\"_3oBhRa col col-2-5 _4H6HH5\">...</div>\n  (Session info: chrome=107.0.5304.88)\n\n",
+      "time" : {
+        "start" : 1667977716910,
+        "stop" : 1667977821695,
+        "duration" : 104785
+      }
+    } ]
+  },
+  "8bcca63abe82eaca966e1aa874c20580" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d05fac1e2e6b73ba",
+      "reportUrl" : "http://localhost:9090/job/SPRINTFLIPKART/3/allure/#testresult/d05fac1e2e6b73ba",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class=\"_3704LK\" type=\"text\" title=\"Search for products, brands and more\" name=\"q\" autocomplete=\"off\" placeholder=\"Search for products, brands and more\" value=\"\"> is not clickable at point (439, 28). Other element would receive the click: <div class=\"_3oBhRa col col-2-5 _4H6HH5\">...</div>\n  (Session info: chrome=107.0.5304.88)\n\n",
+      "time" : {
+        "start" : 1667977611638,
+        "stop" : 1667977716903,
+        "duration" : 105265
+      }
+    } ]
+  },
+  "9b8479e16ea90facecb1be0e13b8bf53" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b05bca01c0a4b98e",
+      "reportUrl" : "http://localhost:9090/job/SPRINTFLIPKART/3/allure/#testresult/b05bca01c0a4b98e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1667977381588,
+        "stop" : 1667977505882,
+        "duration" : 124294
+      }
+    } ]
+  },
+  "a550d5c268ffc7b3a2ca83bf07de1f00" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dac1c727f2c636ac",
+      "reportUrl" : "http://localhost:9090/job/SPRINTFLIPKART/3/allure/#testresult/dac1c727f2c636ac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class=\"_3704LK\" type=\"text\" title=\"Search for products, brands and more\" name=\"q\" autocomplete=\"off\" placeholder=\"Search for products, brands and more\" value=\"\"> is not clickable at point (439, 28). Other element would receive the click: <div class=\"_3oBhRa col col-2-5 _4H6HH5\">...</div>\n  (Session info: chrome=107.0.5304.88)\n\n",
+      "time" : {
+        "start" : 1667977505887,
+        "stop" : 1667977611632,
+        "duration" : 105745
+      }
+    } ]
+  }
+}

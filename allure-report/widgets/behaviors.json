@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "a686b320d00e025d78388980d3488545",
+    "name" : "search flipkart",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

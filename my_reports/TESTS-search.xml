@@ -1,0 +1,192 @@
+<testsuite name="search.search flipkart" tests="4" errors="3" failures="0" skipped="0" time="360.428777" timestamp="2022-11-09T11:42:39.772101" hostname="LAPTOP-7GHOHRCI"><testcase classname="search.search flipkart" name="search data -- @1.1 " status="passed" time="106.762502"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: search data -- @1.1 
+    Given We are on flipkart website ... passed in 41.683s
+    When click login ... passed in 0.118s
+    Then Enter your "9538167879" in the feild ... passed in 20.213s
+    And Enter your "Dog@99" in the box ... passed in 20.173s
+    And click login ... passed in 0.063s
+    Then type "realme" in search bar ... passed in 20.225s
+    And Click on search button ... passed in 0.095s
+    Then Click on Product ... passed in 1.064s
+    Then Click on add to cart ... passed in 3.127s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+
+
+
+]]>
+</system-out></testcase><testcase classname="search.search flipkart" name="search data -- @1.2 " status="failed" time="78.376662"><error type="ElementClickInterceptedException" message="Message: element click intercepted: Element &lt;input class=&quot;_3704LK&quot; type=&quot;text&quot; title=&quot;Search for products, brands and more&quot; name=&quot;q&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search for products, brands and more&quot; value=&quot;&quot;&gt; is not clickable at point (439, 28). Other element would receive the click: &lt;div class=&quot;_3oBhRa col col-2-5 _4H6HH5&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=107.0.5304.88)&#10;">
+<![CDATA[
+Failing step: Then type "tv" in search bar ... failed in 11.214s
+Location: features/search.feature:8
+Traceback (most recent call last):
+  File "C:\Users\Vijay\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "C:\Users\Vijay\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "features\steps\searchfeature.py", line 36, in step_impl
+    context.search.text_Searchbar(searchTEXT)
+  File "C:\Users\Vijay\PycharmProjects\SPRINTFLIPKART\BDDBehavePOM\features\pageobject\search.py", line 47, in text_Searchbar
+    self.TypeEditBox("SEARCHBAR_XPATH", searchTEXT)
+  File "C:\Users\Vijay\PycharmProjects\SPRINTFLIPKART\BDDBehavePOM\features\pageobject\Base.py", line 32, in TypeEditBox
+    self.driver.find_element_by_xpath(configreader.ConfigReader("locators", locator)).click()
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class="_3704LK" type="text" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value=""> is not clickable at point (439, 28). Other element would receive the click: <div class="_3oBhRa col col-2-5 _4H6HH5">...</div>
+  (Session info: chrome=107.0.5304.88)
+
+
+Captured stdout:]]>
+</error><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: search data -- @1.2 
+    Given We are on flipkart website ... passed in 26.687s
+    When click login ... passed in 0.064s
+    Then Enter your "9538167879" in the feild ... passed in 20.205s
+    And Enter your "aswewd" in the box ... passed in 20.145s
+    And click login ... passed in 0.062s
+    Then type "tv" in search bar ... failed in 11.214s
+    And Click on search button ... skipped in 0.000s
+    Then Click on Product ... skipped in 0.000s
+    Then Click on add to cart ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+]]>
+</system-out></testcase><testcase classname="search.search flipkart" name="search data -- @1.3 " status="failed" time="79.2824"><error type="ElementClickInterceptedException" message="Message: element click intercepted: Element &lt;input class=&quot;_3704LK&quot; type=&quot;text&quot; title=&quot;Search for products, brands and more&quot; name=&quot;q&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search for products, brands and more&quot; value=&quot;&quot;&gt; is not clickable at point (439, 28). Other element would receive the click: &lt;div class=&quot;_3oBhRa col col-2-5 _4H6HH5&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=107.0.5304.88)&#10;">
+<![CDATA[
+Failing step: Then type "books" in search bar ... failed in 11.111s
+Location: features/search.feature:8
+Traceback (most recent call last):
+  File "C:\Users\Vijay\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "C:\Users\Vijay\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "features\steps\searchfeature.py", line 36, in step_impl
+    context.search.text_Searchbar(searchTEXT)
+  File "C:\Users\Vijay\PycharmProjects\SPRINTFLIPKART\BDDBehavePOM\features\pageobject\search.py", line 47, in text_Searchbar
+    self.TypeEditBox("SEARCHBAR_XPATH", searchTEXT)
+  File "C:\Users\Vijay\PycharmProjects\SPRINTFLIPKART\BDDBehavePOM\features\pageobject\Base.py", line 32, in TypeEditBox
+    self.driver.find_element_by_xpath(configreader.ConfigReader("locators", locator)).click()
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class="_3704LK" type="text" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value=""> is not clickable at point (439, 28). Other element would receive the click: <div class="_3oBhRa col col-2-5 _4H6HH5">...</div>
+  (Session info: chrome=107.0.5304.88)
+
+
+Captured stdout:]]>
+</error><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: search data -- @1.3 
+    Given We are on flipkart website ... passed in 27.689s
+    When click login ... passed in 0.089s
+    Then Enter your "8877996655" in the feild ... passed in 20.170s
+    And Enter your "Dog@99" in the box ... passed in 20.158s
+    And click login ... passed in 0.065s
+    Then type "books" in search bar ... failed in 11.111s
+    And Click on search button ... skipped in 0.000s
+    Then Click on Product ... skipped in 0.000s
+    Then Click on add to cart ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+]]>
+</system-out></testcase><testcase classname="search.search flipkart" name="search data -- @1.4 " status="failed" time="96.007212"><error type="ElementClickInterceptedException" message="Message: element click intercepted: Element &lt;input class=&quot;_3704LK&quot; type=&quot;text&quot; title=&quot;Search for products, brands and more&quot; name=&quot;q&quot; autocomplete=&quot;off&quot; placeholder=&quot;Search for products, brands and more&quot; value=&quot;&quot;&gt; is not clickable at point (439, 28). Other element would receive the click: &lt;div class=&quot;_3oBhRa col col-2-5 _4H6HH5&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=107.0.5304.88)&#10;">
+<![CDATA[
+Failing step: Then type "mobile" in search bar ... failed in 11.177s
+Location: features/search.feature:8
+Traceback (most recent call last):
+  File "C:\Users\Vijay\lib\site-packages\behave\model.py", line 1329, in run
+    match.run(runner.context)
+  File "C:\Users\Vijay\lib\site-packages\behave\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "features\steps\searchfeature.py", line 36, in step_impl
+    context.search.text_Searchbar(searchTEXT)
+  File "C:\Users\Vijay\PycharmProjects\SPRINTFLIPKART\BDDBehavePOM\features\pageobject\search.py", line 47, in text_Searchbar
+    self.TypeEditBox("SEARCHBAR_XPATH", searchTEXT)
+  File "C:\Users\Vijay\PycharmProjects\SPRINTFLIPKART\BDDBehavePOM\features\pageobject\Base.py", line 32, in TypeEditBox
+    self.driver.find_element_by_xpath(configreader.ConfigReader("locators", locator)).click()
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Vijay\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input class="_3704LK" type="text" title="Search for products, brands and more" name="q" autocomplete="off" placeholder="Search for products, brands and more" value=""> is not clickable at point (439, 28). Other element would receive the click: <div class="_3oBhRa col col-2-5 _4H6HH5">...</div>
+  (Session info: chrome=107.0.5304.88)
+
+
+Captured stdout:]]>
+</error><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: search data -- @1.4 
+    Given We are on flipkart website ... passed in 44.033s
+    When click login ... passed in 0.127s
+    Then Enter your "7896535372" in the feild ... passed in 20.295s
+    And Enter your "gehsge" in the box ... passed in 20.222s
+    And click login ... passed in 0.154s
+    Then type "mobile" in search bar ... failed in 11.177s
+    And Click on search button ... skipped in 0.000s
+    Then Click on Product ... skipped in 0.000s
+    Then Click on add to cart ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+
+
+
+
+
+
+
+]]>
+</system-out></testcase></testsuite>

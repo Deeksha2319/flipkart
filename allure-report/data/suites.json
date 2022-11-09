@@ -1,0 +1,57 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "search data -- @1.1 ",
+    "uid" : "b05bca01c0a4b98e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1667977381588,
+      "stop" : 1667977505882,
+      "duration" : 124294
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Dog@99", "realme", "9538167879" ]
+  }, {
+    "name" : "search data -- @1.2 ",
+    "uid" : "dac1c727f2c636ac",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1667977505887,
+      "stop" : 1667977611632,
+      "duration" : 105745
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "aswewd", "tv", "9538167879" ]
+  }, {
+    "name" : "search data -- @1.3 ",
+    "uid" : "d05fac1e2e6b73ba",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1667977611638,
+      "stop" : 1667977716903,
+      "duration" : 105265
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Dog@99", "books", "8877996655" ]
+  }, {
+    "name" : "search data -- @1.4 ",
+    "uid" : "f8cc150f9494a03b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1667977716910,
+      "stop" : 1667977821695,
+      "duration" : 104785
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "gehsge", "mobile", "7896535372" ]
+  } ]
+}

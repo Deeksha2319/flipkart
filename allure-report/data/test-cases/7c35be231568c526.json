@@ -1,0 +1,196 @@
+{
+  "uid" : "7c35be231568c526",
+  "name" : "search data -- @1.1 ",
+  "fullName" : "search flipkart: search data",
+  "historyId" : "9b8479e16ea90facecb1be0e13b8bf53",
+  "time" : {
+    "start" : 1667975268536,
+    "stop" : 1667975388918,
+    "duration" : 120382
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given We are on flipkart website",
+      "time" : {
+        "start" : 1667975271311,
+        "stop" : 1667975315375,
+        "duration" : 44064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "When click login",
+      "time" : {
+        "start" : 1667975315375,
+        "stop" : 1667975315522,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Enter your \"9538167879\" in the feild",
+      "time" : {
+        "start" : 1667975315523,
+        "stop" : 1667975335797,
+        "duration" : 20274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And Enter your \"Dog@99\" in the box",
+      "time" : {
+        "start" : 1667975335797,
+        "stop" : 1667975356040,
+        "duration" : 20243
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And click login",
+      "time" : {
+        "start" : 1667975356040,
+        "stop" : 1667975356166,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then type \"realme\" in search bar",
+      "time" : {
+        "start" : 1667975356166,
+        "stop" : 1667975376606,
+        "duration" : 20440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "And Click on search button",
+      "time" : {
+        "start" : 1667975376606,
+        "stop" : 1667975376773,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Click on Product",
+      "time" : {
+        "start" : 1667975376773,
+        "stop" : 1667975378597,
+        "duration" : 1824
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Then Click on add to cart",
+      "time" : {
+        "start" : 1667975378598,
+        "stop" : 1667975383605,
+        "duration" : 5007
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "search flipkart"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "Dog@99"
+  }, {
+    "name" : "searchTEXT",
+    "value" : "realme"
+  }, {
+    "name" : "username",
+    "value" : "9538167879"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c35be231568c526.json",
+  "parameterValues" : [ "Dog@99", "realme", "9538167879" ]
+}
